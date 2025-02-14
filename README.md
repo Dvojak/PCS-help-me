@@ -5,7 +5,7 @@ Zápis z 14.2. 2022
 
 
 1. Zapnutí služby pro překlad: (Na hraničním Routeru)
-	``` 
+``` 
 	ip nat inside source ?
 		a) list - používáme když chceme vnitřní adresy do vnější 
 					##jaké jsme nadefinovali pravidla?##
@@ -21,11 +21,10 @@ Zápis z 14.2. 2022
 				2) WORD -
 				## Mezi nimi není žádný rozdíl ##
 		b) static - používáme když chceme vnější do vnitřní
-		
-			
+```
 
 c) použili jsme:
- ```
+```
 ip nat inside source list 33 interface g0/0 overload
 ```
 Popis každé části:
@@ -64,7 +63,6 @@ Do sh access-list
 ```
 Nejspíš to nebude vůbec k něčemu a možně chybné
 --------------------------------------------------------------
-Nespoléhejte se na to. Dělám to jenom abych dával pořádný pozor.								
-			
-				 				
+Nespoléhejte se na to. Dělám to jenom abych dával pořádný pozor.											
+				 	
 			
